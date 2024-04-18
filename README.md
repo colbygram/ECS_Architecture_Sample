@@ -9,12 +9,12 @@ sudo apt-get install g++
 Reminder that these commands must be run in the WSL shell and so should the following commands. The WSL shell can be accessed by using the ```wsl``` command in the Windows terminal
 
 ## Installation
-**Git Clone**
+### Git Clone
 Use ```git clone <repo-link>``` in a directory of your choosing to copy the code to your machine
 ```
 git clone https://github.com/colbygram/ECS_Architecture_Sample.git
 ```
-**Init Submodules**
+### Init Submodules
 Enter the new directory
 ```cd ECS_Architecture_Sample```
 
@@ -39,5 +39,5 @@ cmake ..
 make
 ```
 
-# Run Executable and Operation
+## Run Executable and Operation
 Use ```./ECS``` to run the executable previously built.
