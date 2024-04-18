@@ -1,4 +1,10 @@
 # Entity Component System Sample 
+![alt text](<Github Resources/Screenshot 2024-04-18 150555.png>)
+## Entity Component System
+### Entity
+Built to keep a vector of components and have the capability to add components only if they are derived from the Component struct. GetComponent returns a nullptr if the Component is not present in the vector.
+### Component 
+Simple abstract class. Stores a pointer to the entity it is attached too. Useful for accessing common information such as transforms and other relevant data stored in an entity and it's components.
 
 ## Pre-Install
 Due to errors with MSVC, it is recommended to install WSL (https://learn.microsoft.com/en-us/windows/wsl/install). Using Ubuntu, WSL's default distribution, the following commands will install the G++ compiler which will allow for the code to be compiled.

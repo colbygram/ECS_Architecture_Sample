@@ -16,7 +16,7 @@ int main(){
     bool control_toggle = false;
     
     //Window and camera objects
-    raylib::Window window(WIDTH, HEIGHT, "CS 381 - Assignment 6");
+    raylib::Window window(WIDTH, HEIGHT, "ECS Architecture Sample");
     raylib::Camera3D main_camera(raylib::Vector3(500,150,500), raylib::Vector3(0,0,0), raylib::Vector3(0,1,0), 90, CAMERA_PERSPECTIVE);
     raylib::Vector3 camera_offset = {0,50,-100};
     
